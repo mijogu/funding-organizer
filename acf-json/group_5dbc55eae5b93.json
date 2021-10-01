@@ -1,0 +1,303 @@
+{
+    "key": "group_5dbc55eae5b93",
+    "title": "Securities agreements",
+    "fields": [
+        {
+            "key": "field_5dbc56149a1ce",
+            "label": "Complete copies of closing binders for all prior rounds of private placement financings.",
+            "name": "closing_binders",
+            "type": "repeater",
+            "instructions": "The bank will want to know who else is an investor and who you sold stock.  Some of the stock might be owned by individuals and others might be owned by a trust.  The funding sources will want to know how much stock each person owns in the event someone or entity owns 20% or more for purposes of co-signing for loans if required.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc56359a1cf",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc56739a1d0",
+            "label": "Copies of equity compensation plans and forms of equity compensation agreements which may have been used.",
+            "name": "equity_compensation_plans",
+            "type": "repeater",
+            "instructions": "Funders want to understand the cash and equity formula’s used to compensate employees, boards of directors and advisory boards. This will tell funders future financial obligations and shifts in ownership.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc56739a1d1",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc56a59a1d2",
+            "label": "Summary of employee stock vesting schedules.",
+            "name": "vesting_schedules",
+            "type": "file",
+            "instructions": "This will tell funders how the company is trying to retain employees.  Funders like management and key employee stability.  The provides confidence the business will continue to grow and they will get their money back. If this doesn’t apply to you leave it blank.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5dbc56f29a1d3",
+            "label": "Copies of equity purchase plans and forms of purchase agreements which have been or maybe used for sales common equity.",
+            "name": "equity_purchase_plans",
+            "type": "repeater",
+            "instructions": "Another way for funders to know who owns the stock and each person or entities specific agreement.  Shares are sold at different prices at different times in the company’s history. If this doesn’t apply to you leave it blank.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc56f29a1d4",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc571d9a1d5",
+            "label": "Copies of all agreements relating to preemptive or other preferential rights to acquire securities, including any rights of first refusal.",
+            "name": "acquire_securites",
+            "type": "repeater",
+            "instructions": "Funders wan to know if they take the company’s stock as collateral, who else might have a claim to the stock. If this doesn’t apply to you leave it blank.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc571d9a1d6",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc57829a1d9",
+            "label": "Copies of all agreements relating to registration rights.",
+            "name": "registration_rights",
+            "type": "repeater",
+            "instructions": "Registration rights are control provisions that allow an investor to force the business to file a registration statement with the Securities and Exchange Commission (SEC) and state regulators.  Funders want to know this in case there is a material change in the business, the business is filing some type of bankruptcy chapter or changing the type of or location of the state the business is incorporated in. If this doesn’t apply to you leave it blank.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc57829a1da",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc579e9a1db",
+            "label": "Copies of sales, purchases or issues of securities by the company including any offering circulars.",
+            "name": "securities",
+            "type": "repeater",
+            "instructions": "Funders want to know if recently you sold or plan to sell additional stock to individuals, trusts or strategic buyers\/partners.  If this doesn’t apply to you leave it blank.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc579e9a1dc",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5dbc55d541714"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1586965901
+}

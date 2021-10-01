@@ -1,0 +1,105 @@
+{
+    "key": "group_5dbc62cd4b4da",
+    "title": "Business & Operations",
+    "fields": [
+        {
+            "key": "field_5dbc62e602250",
+            "label": "Does the Company or any of its affiliates or joint ventures have or expect to have any sales, operations, R&D or other business activities outside the U.S., directly or through affiliates or third parties?",
+            "name": "non_us_business",
+            "type": "button_group",
+            "instructions": "Funding sources want to know this if the cash comes back to the US. They want to know if any of the entities is on a US Justice or Treasury departments are on any list banning them from working with a US based company.  If this doesn’t apply to you write not applicable.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "choices": {
+                "yes": "yes",
+                "no": "no"
+            },
+            "allow_null": 1,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5dbc631202251",
+            "label": "List countries",
+            "name": "non_us_business_countries",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5dbc62e602250",
+                        "operator": "==",
+                        "value": "yes"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5dbc635702253",
+            "label": "Does the Company or any of its affiliates or joint ventures, directly or through others, interact or expect to interact with any non-U.S. “Government Officials”? For this purpose, “Government Official” refers to (i) any public or elected official or officer, employee (regardless of rank), or person acting on behalf of a national, provincial, or local government, department, agency, instrumentality, state-owned or state-controlled company, public international organization, political party or entity that is financed in large measure through public appropriations, is widely perceived to be performing government functions, or has its key officers and directors appointed by a government and (ii) any party official or candidate for political office and any person acting on behalf of any governmental entity referred to in clause (i) or candidate for political office",
+            "name": "non_us_government_officials",
+            "type": "button_group",
+            "instructions": "There are governments and government officials are banned from doing business with US companies.  You can write not applicable if it doesn’t apply to you.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "choices": {
+                "yes": "yes",
+                "no": "no"
+            },
+            "allow_null": 1,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5dbc62be440d3"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1578007240
+}

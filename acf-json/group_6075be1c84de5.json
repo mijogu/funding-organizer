@@ -1,0 +1,279 @@
+{
+    "key": "group_6075be1c84de5",
+    "title": "Personal Financial Information",
+    "fields": [
+        {
+            "key": "field_6075b39b4bf7f",
+            "label": "Please provide 3 years of Personal Tax Returns for each person that owns over 20% of the company.",
+            "name": "pf_tax_returns",
+            "type": "repeater",
+            "instructions": "There are several reasons funders want this information.  First your business might not have enough collateral to cover the loan.  Second, even if your business has enough collateral the bank might want each owner with 20% or more of the company stock to backstop the loan with a personal guarantee.  Third, the bank wants to make sure the primary stockholders don’t owe a significant amount of tax that the government could put a lien on the corporate assets.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6075b43a4bf80",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "admin_column_enabled": 0,
+                    "admin_column_post_types": "",
+                    "admin_column_taxonomies": "",
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6075b4b74bf81",
+            "label": "Please list of any real estate owned by each person that owns over 20% of the company such as person homes, vacation homes or plots of land. (Best to do this in spread sheet form and upload it as a PDF.)",
+            "name": "pf_real_estate_owned",
+            "type": "file",
+            "instructions": "There are several reasons funders want this information.  First your business might not have enough collateral to cover the loan.  Second, even if your business has enough collateral the bank might want each owner with 20% or more of the company stock to backstop the loan with their personal assets.  They will want to know if the shareholder’s property is in their name, any mortgages and if those assets have been pledged as collateral for other loans.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "return_format": "array",
+            "library": "uploadedTo",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_6075b50e4bf82",
+            "label": "Please provide Brokerage and bank statements that are no more than 30 days old.",
+            "name": "pf_brokerage_statements",
+            "type": "repeater",
+            "instructions": "There are several reasons funders want this information.  First your business might not have enough collateral to cover the loan.  Second, even if your business has enough collateral the bank might want each owner with 20% or more of the company stock to backstop the loan with their personal assets.  This will be added to the formula to make sure you have enough collateral to support the loan and they check to make sure these assets are available to be used as collateral.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6075b53d4bf83",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "admin_column_enabled": 0,
+                    "admin_column_post_types": "",
+                    "admin_column_taxonomies": "",
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6075b59e4bf84",
+            "label": "Please provide in PDF form 2 Forms of ID for each person that owns 20% or more of the company. (Back and front of a driver’s license and copy of the passport.)",
+            "name": "pf_forms_of_id",
+            "type": "repeater",
+            "instructions": "The bank has to run a check to make sure you are who you say you are and that you don’t have any legal issues.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6075b5fe4bf85",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "admin_column_enabled": 0,
+                    "admin_column_post_types": "",
+                    "admin_column_taxonomies": "",
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6075b6214bf87",
+            "label": "Please provide 3-Months of Personal Bank Statements for each person with 20% or more ownership.",
+            "name": "pf_personal_bank_statements",
+            "type": "repeater",
+            "instructions": "There are several reasons funders want this information.  First your business might not have enough collateral to cover the loan.  Second, even if your business has enough collateral the bank might want each owner with 20% or more of the company stock to backstop the loan with their personal assets.  They will want to know if the accounts are just in the borrower’s name(s), if they are jointly held or if someone else also owns the accounts.  The bank will want to see how much money the accounts have in order to support to the loan if needed.  This will be added to the formula to make sure you have enough collateral to support the loan and they check to make sure these assets are available to be used as collateral.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6075b6904bf88",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "admin_column_enabled": 0,
+                    "admin_column_post_types": "",
+                    "admin_column_taxonomies": "",
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6075b6b94bf89",
+            "label": "Please provide copies of all Loans\/Mortgages and most recent account statement(s) within last 30 days.",
+            "name": "pf_loans_mortgages",
+            "type": "repeater",
+            "instructions": "Funders need to know how significant each shareholder of 20% or more owes to figure out their credit worthiness and if the business runs into problems can the owners continue to support the loan.  They also want to see how much equity the owners have in other properties that can be used as collateral.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6075b71c4bf8a",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "admin_column_enabled": 0,
+                    "admin_column_post_types": "",
+                    "admin_column_taxonomies": "",
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_6075b857e5426"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1618331867
+}

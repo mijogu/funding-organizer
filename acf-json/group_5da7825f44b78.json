@@ -1,0 +1,239 @@
+{
+    "key": "group_5da7825f44b78",
+    "title": "Company documents",
+    "fields": [
+        {
+            "key": "field_5da7825f962c2",
+            "label": "Incorporation certificate",
+            "name": "incorporation_certificate",
+            "type": "file",
+            "instructions": "For several reasons. (1) Government requirement, (2) They need to know for tax purposes what state you were incorporated in.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "uploadedTo",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5da7825f9a499",
+            "label": "Stockholder agreements",
+            "name": "stockholder_agreements",
+            "type": "repeater",
+            "instructions": "They want to know who owns stock in the company for background checking and most banks require all shareholders with 20% or more ownership to co-sign for a loan.  If the stock is held by a trust, the trust and the trustee representing the trust are held accountable.  Even if a business has sufficient assets to use as collateral many banks want the key owners to backstop the loan personally.  All of this is negotiable depending on the size of the loan, assets that can be used as collateral, revenue, profit, debt and growth of the business.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5da7825f9ebbe",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5da7825fa6e19",
+            "label": "Voting agreements",
+            "name": "voting_agreements",
+            "type": "repeater",
+            "instructions": "They need to know who the owners are, what percentage they own and who has the right to buy stock from the other owners.  They are looking for who owns 20% or more because they, most likely, will have to co-sign for any loans.  If the business has a complicated stockholder structure with lots of trusts and corporations owning the stock, community banks, credit unions and savings and loans will probably deem it too risky.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5da7825faaffa",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5da7825fb2f6d",
+            "label": "Voting trusts",
+            "name": "voting_trusts",
+            "type": "repeater",
+            "instructions": "They need to know how much the trusts own, how they are constructed and what individual(s) are responsible. They will do background checks on these individuals to make sure they have no criminal record or legal issues that would prohibit the trusts stock from being used as collateral for the loan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5da7825fb70d7",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5df918e4cd243",
+            "label": "Copies of all meeting minutes of the board of directors",
+            "name": "meeting_minutes",
+            "type": "repeater",
+            "instructions": "For businesses with one shareholder or even a few there is a good chance no meetings or notes were ever taken.  For larger entities it gives the bank insights into the company’s discussions and decisions, which provides for more insights into the company.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5df918e4cd244",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5da7825fbf1c2",
+            "label": "List of states and countries in which Company is qualified to do business and\/or is doing business, together with copies of certificates of good standing or equivalent documents in all jurisdictions where the Company is doing business",
+            "name": "places_of_business",
+            "type": "textarea",
+            "instructions": "List of states and countries in which the Company is qualified to do business and\/or is doing business.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5da77babe47fa"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1600962207
+}

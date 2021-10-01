@@ -1,0 +1,91 @@
+{
+    "key": "group_5d93aad9c632b",
+    "title": "Market research",
+    "fields": [
+        {
+            "key": "field_5d93ad69ed368",
+            "label": "Size of customer market",
+            "name": "size_of_customer_market",
+            "type": "text",
+            "instructions": "A growing market tells them about the future potential health of the business. A shrinking market might be concerning because less customers to buy the borrowers products and services. They want to know how well you know your own market. Some banks specialize in specific industries and will take risk based on their knowledge of the borrower’s industry.  Lastly, they might have a lot of potential clients to introduce the borrower to, which reduces the risk of the loan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d93ad77ed369",
+            "label": "Industry growth projections",
+            "name": "industry_growth_projections",
+            "type": "text",
+            "instructions": "The greater the opportunities the better chance the business has of growing its revenue. On the flip side the greater the growth the more competitors who will be jumping in. The funder will get to know the borrower and determine if they believe he or she has the “right stuff” to compete. The funder also wants to anticipate future funding needs, which might make it more attractive for the funder to accept you.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5d93ad8bed36a",
+            "label": "Competitive analysis",
+            "name": "competitive_analysis",
+            "type": "textarea",
+            "instructions": "They want to know how well you know the competition, what differentiates your business and what is your competitive advantage. The more you know about the competition and  your ability to explain why you think you can compete the higher the banks confidence level will be.  You might own a pizzeria in a community where there are five others within a couple of miles, but you can explain why people come to you, how often they buy and how you have differentiated your offering from others.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5da7967378feb"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1573062450
+}

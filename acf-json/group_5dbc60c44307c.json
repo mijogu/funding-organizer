@@ -1,0 +1,164 @@
+{
+    "key": "group_5dbc60c44307c",
+    "title": "Security holder information",
+    "fields": [
+        {
+            "key": "field_5dbc60d66d21c",
+            "label": "List of all stockholders, option-holders and other equity holders, including numbers\/percentage interests of equity owned, records setting forth all issuances or grants of equity by the Company, the names of the issues or grantees, the amounts issued or granted, the dates of the issuances or grants, and the consideration received by the Company in each case.",
+            "name": "stockholders_information",
+            "type": "textarea",
+            "instructions": "Funders, depending on the type of funding being provided, want to know this information for who would co-sign for the loan.  If it is buying equity, who owns what number of shares now and what they could purchase for the future, which could change the ownership structure and\/or who would be responsible for providing guarantees for loans if loans are taken.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5dbc61366d21d",
+            "label": "List of all options proposed to be issued, if any, including names of proposed option holders and number of options to be issued to each.",
+            "name": "options_information",
+            "type": "textarea",
+            "instructions": "Funders, depending on the type of funding being provided, want to know this information for who would co-sign for the loan.  If it is buying equity, who owns what number of shares now and what they could purchase for the future, which could change the ownership structure and\/or who would be responsible for providing guarantees for loans if loans are taken.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5dbc61556d21e",
+            "label": "Does the Company or any of its affiliates or joint ventures have or expect to have any non-U.S. security-holders or other equity holders?",
+            "name": "non_us_securityholders",
+            "type": "button_group",
+            "instructions": "Funders want to know how much foreign entities for both guaranteeing of loans, potential of money laundering and individual and\/or entities that, by US law, can’t legally have an ownership steak in a US company.  If not applicable select “No.”",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "choices": {
+                "yes": "yes",
+                "no": "no"
+            },
+            "allow_null": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5dbc619d6d21f",
+            "label": "List countries of non-U.S. security-holders.",
+            "name": "non_us_securityholders_countries",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5dbc61556d21e",
+                        "operator": "==",
+                        "value": "yes"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5dbc62256d221",
+            "label": "Copies of any annual reports, quarterly reports, and any other communications with securityholders (if applicable).",
+            "name": "securityholder_reports",
+            "type": "repeater",
+            "instructions": "Provides insights into what is going on with the business.  The more the funding source knows the quicker they can decide whether to fund you are not and for how much, the more transparent you come across and the better they are at helping you succeed.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc62486d222",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5dbc60a247b15"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1586965957
+}

@@ -1,0 +1,111 @@
+{
+    "key": "group_5dbc6edae0bed",
+    "title": "Funding sources",
+    "fields": [
+        {
+            "key": "field_5dbc6ee6f1f60",
+            "label": "Angel Investors. Upload a spreadsheet that includes: Name of Investor, the amount of money invested, amount of stock, amount of money loaned, rate of interest if loan, phone number, and email address.",
+            "name": "angel_investors_list",
+            "type": "file",
+            "instructions": "Many businesses raise money from friends, family and individual investors called “Angel Investors,” who buy shares of stock, loan the company money, take a royalty or all of the above.  You might have done crowd funding, where you raise money from many people around the world and mostly from people you don’t know. Funders need to know who has a claim on shares, assets and future revenue.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5dbc6ef7f1f61",
+            "label": "Banks. Upload a spreadsheet that includes: Name of the bank, loan officer, phone number, email address, amount borrowed, monthly payment, number of months left on loan, and loan rate.",
+            "name": "banks_list",
+            "type": "file",
+            "instructions": "The funder needs to know who has a claim on the hard assets, accounts receivable and credit receipts you might need to pledge.  They want to know if they have to provide enough capital to pay off the current lender and if you can afford to take out the lender along with borrowing what you need to grow the business.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5dbc6f36f1f62",
+            "label": "Factoring. Upload a spreadsheet that includes: Name of the factor, contact, phone number, email address, average no. of monthly invoices, average amount per invoice, rate, number of days invoices are factored for.",
+            "name": "factoring_list",
+            "type": "file",
+            "instructions": "Factors buy accounts receivable for a percentage of the value of the receivable.  Factors require borrowers to give up their bank relationships and have their money sent to something called a lock box. Funders have to decide if there is enough income coming in to take out the factor if they are a bank, savings and loan, credit union or online lender.  More than likely if another factor is considering taking out the existing factor it is because they are offering a better rate and\/or accepting more invoices.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5dbc6f42f1f63",
+            "label": "State\/County Economic Development Money. Upload a spreadsheet that includes: Name of organization, contact person, email, phone, amount borrowed, rate, number of months left on loan.",
+            "name": "states_list",
+            "type": "file",
+            "instructions": "There are a variety of government loan options that are accessible through county, state and federal departments. Funders need to know what assets were committed or promises made for job creation that will allow or prohibit providing funding.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5dbc6ecf3d18a"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1586966021
+}

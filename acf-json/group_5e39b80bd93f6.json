@@ -1,0 +1,51 @@
+{
+    "key": "group_5e39b80bd93f6",
+    "title": "[Form] Submit Application",
+    "fields": [
+        {
+            "key": "field_5e39b816c8757",
+            "label": "Choose which funders you want to submit your application.",
+            "name": "choose_funders",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "choices": {
+                "13": "Bank of America",
+                "2": "Fishtown Credit Union",
+                "14": "TD Bank",
+                "15": "Wells Fargo"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5e39b93ada6ac"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1580937736
+}

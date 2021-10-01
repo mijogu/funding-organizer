@@ -1,0 +1,632 @@
+{
+    "key": "group_5dbc6c732b544",
+    "title": "Financial",
+    "fields": [
+        {
+            "key": "field_5dbc6c88a4a72",
+            "label": "Copies of any current business plan or financial plan, including any financial projections.",
+            "name": "business_financial_plan_and_projections",
+            "type": "repeater",
+            "instructions": "Plans show a level of thinking and preparation that give confidence to funders.  Financial projections allow funders to see management predictions for the future, the amount of money needed to execute their plans and a chance for funders to evaluate how efficiently the business is run.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc6cb1a4a73",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc6cd0a4a74",
+            "label": "Copy of current accounts receivable by month for the last 12 months and\/or month revenue by month you collect through checks, credit cards, cyber platforms and cash.",
+            "name": "accounts_receivable",
+            "type": "repeater",
+            "instructions": "This is a requirement of every funder, who needs to get a picture of how well the business has done over the past year as a predictor for future years.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc6cd0a4a75",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc6ce2a4a76",
+            "label": "Copy of accounts payable for 30, 60, 90 and for the year.",
+            "name": "accounts_payable",
+            "type": "repeater",
+            "instructions": "Every funder wants this information to understand your cash needs, what you spend your money on and how long you typically take the pay.  It also allows them to see loans, leases and other long-term debts.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc6ce2a4a77",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc6cfda4a78",
+            "label": "Copies of the Company’s most recent audited financial statements and latest unaudited monthly financial statements.",
+            "name": "audited_unaudited_financial_statements",
+            "type": "repeater",
+            "instructions": "Funders require this because they want to know what the accountants have found and their opinion, if they provide one, about the future of the company.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc6cfda4a79",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc6d27a4a7a",
+            "label": "Copies of any other documents or information deemed significant with respect to the business of the Company or which should be considered and reviewed in making disclosures regarding the business and financial condition of the Company to prospective investors.",
+            "name": "other_financial_documents",
+            "type": "repeater",
+            "instructions": "Funders want to see any documents that could provide insights into the business such as new contracts, new major expenses like machinery, office and property leases, sales of real estate, machinery, etc.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc6d27a4a7b",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc6d46a4a7c",
+            "label": "Copy of last 3-years of Federal Tax Returns.",
+            "name": "federal_tax_returns",
+            "type": "repeater",
+            "instructions": "To make sure the returns have been filed and that the returns match the financials the company has provided.  That cash receipts have been reported.  Often businesses don’t report all or part of their cash receipts. If you don’t report your cash receipts, you won’t be able to use them as support to whatever amount of money you are looking to obtain.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 3,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc6d46a4a7d",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc6d54a4a7e",
+            "label": "Copy of last 3-years of State Tax Returns.",
+            "name": "state_tax_returns",
+            "type": "repeater",
+            "instructions": "To make sure the returns have been filed and that the returns match the financials the company has provided.  That cash receipts have been reported.  Often businesses don’t report all or part of their cash receipts. If you don’t report your cash receipts, you won’t be able to use them as support to whatever amount of money you are looking to obtain.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 3,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc6d54a4a7f",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc6d94a4a80",
+            "label": "Copy of last 3-years of Local Tax Returns.",
+            "name": "local_tax_returns",
+            "type": "repeater",
+            "instructions": "To make sure the returns have been filed and that the returns match the financials the company has provided.  That cash receipts have been reported.  Often businesses don’t report all or part of their cash receipts. If you don’t report your cash receipts, you won’t be able to use them as support to whatever amount of money you are looking to obtain.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 3,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc6d94a4a81",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5e56ad7bb0eb1",
+            "label": "Upload six months of your business bank account bank statements for both checking and savings.  (Please use a black magic marker to darken out your account numbers.)",
+            "name": "business_bank_account_statements",
+            "type": "repeater",
+            "instructions": "The banks like to see your average monthly balance and your typical outflow of payments.  This gives them insights into our your cash flow and how you spend your business money.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 3,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5e56ad7bb0eb2",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "",
+                    "library": "",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5e56ae01b0eb3",
+            "label": "Upload six months of your personal bank account bank statements for both checking and savings.  (Please use a black magic marker to darken out your account numbers.)",
+            "name": "personal_bank_account_statements",
+            "type": "repeater",
+            "instructions": "The bank wants to see if the business is able to support your lifestyle and if you have any significant expenses such as your mortgage, car payments, secondary mortgages, big on going credit card bills, etc.  This allows them to evaluate you personally and to determine if you are a good risk.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 3,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5e56ae01b0eb4",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "",
+                    "library": "",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5e56ae3fb0eb5",
+            "label": "Upload six months of your business credit card statements.  (If you have multiple business credit cards show them all. Please use a black magic marker to darken out your account numbers.)",
+            "name": "business_credit_card_statements",
+            "type": "repeater",
+            "instructions": "The bank wants to see if you are making steady payments, if you are paying the minimum balance or are you paying the charges off every month.  This gives them an idea about your consistency as a payor\/borrower and if you can afford to make payments on the amount you plan to borrow from the bank.  The bank can also see that with their loan you could reduce credit card debt, improve your cashflow and give them confidence you can support your loan request.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 3,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5e56ae3fb0eb6",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "",
+                    "library": "",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5e56ae6db0eb7",
+            "label": "Upload six months of your personal credit card statements.  (If you have multiple personal credit cards show the main card. Please use a black magic marker to darken out your account numbers.)",
+            "name": "personal_credit_card_statements",
+            "type": "repeater",
+            "instructions": "The bank wants to see if you are making consistent payments, if you are paying the minimum balance or are you paying the charges off every month.  This gives them an idea about your consistency as a payor\/borrower and if you can afford to make payments on the amount you plan to borrow from the bank.  The bank can also see that with their loan you could reduce credit card debt, improve your cashflow and give them confidence you can support your loan request.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 3,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5e56ae6db0eb8",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5e8603e1ea4a3",
+            "label": "Copies of personal brokerage account statements for the last six months.",
+            "name": "personal_brokerage_statements",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 3,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5e8603e1ea4a4",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5f99a4123ac97",
+            "label": "Information on the applicant’s income from external sources such as a second business, real estate, trust fund, artwork, collectible, etc.",
+            "name": "external_income",
+            "type": "repeater",
+            "instructions": "Any income you have that could support what your loan or back up the loan that the funding institution can recoup all or part of their investment is important.  One time, a major pharmaceutical venture fund invested in a startup and the founders used part of the money to invest in art, which when the company went bankrupt the venture fund got back all of their money through the sale of the art.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 3,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5f99a4123ac98",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "admin_column_enabled": 0,
+                    "admin_column_post_types": [
+                        "post",
+                        "page",
+                        "loanapplication",
+                        "af_form",
+                        "af_entry"
+                    ],
+                    "admin_column_taxonomies": [
+                        "category",
+                        "post_tag",
+                        "link_category"
+                    ],
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5dbc6c6a02a8e"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1603904651
+}

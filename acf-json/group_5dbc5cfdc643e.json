@@ -1,0 +1,493 @@
+{
+    "key": "group_5dbc5cfdc643e",
+    "title": "Material agreements",
+    "fields": [
+        {
+            "key": "field_5dbc5d10f7f30",
+            "label": "Copies of all material contracts with Suppliers (or the standard form of such contracts used by the Company and a list of all material suppliers that have signed that form, identifying any deviations therefrom with respect to any particular supplier).",
+            "name": "supply_contracts",
+            "type": "repeater",
+            "instructions": "Funders like to see what the language you use when supplier contracts in terms of guarantees such as using your building or other assets as collateral.  They also want to see scanned copies of your agreements.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5d37f7f31",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5d49f7f32",
+            "label": "Copies of all material sales, agency, distribution and advertising contracts and other material contracts with customers.",
+            "name": "sales_contracts",
+            "type": "repeater",
+            "instructions": "Funders want to know if you are in the process of selling something that could be used as an asset or that you have agreed to provide a service and were paid in advance so until you fulfilled your commitment it is a debt.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5d49f7f33",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5d7af7f34",
+            "label": "Copies of all material leases for real or personal property (whether the Company is lessor or lessee).",
+            "name": "lease_contracts",
+            "type": "repeater",
+            "instructions": "Funders want to know if you have leased property through your company or personally signed for it.  If you signed personally this affects your ability to leverage your own credit or assets.  Remember funders want to have access to as many unencumbered assets as they can to back up your loan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5d7af7f35",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5d95f7f36",
+            "label": "Copies of all contracts or agreements with or pertaining to the Company and to which any officer, director or 5% equity holder is a party, and any documents relating to any other transactions with such parties or pertaining to any receivables from or payables to such parties.",
+            "name": "equity_holder_contracts",
+            "type": "repeater",
+            "instructions": "There are funders who want to know if any executives, who could be co-signers on any loans., have personally or signed on behalf of the company for loans or leases.  They want to make sure all corporate and personal assets are not spoken for and there are no personal credit issues.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5d95f7f37",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5dbdf7f38",
+            "label": "Copies of all partnership or joint venture agreements.",
+            "name": "partnership_contracts",
+            "type": "repeater",
+            "instructions": "The funders need to know if any collateral or stock was committed.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5dbdf7f39",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5dd6f7f3a",
+            "label": "Copies of all agreements or insurance policies providing for indemnification of any director or officer.",
+            "name": "indemnification_insurance_contracts",
+            "type": "repeater",
+            "instructions": "Funders want to know to make sure if the company, executives or the board is sued that there is insurance to cover all or part of the claim.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5dd6f7f3b",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5e00f7f3c",
+            "label": "Copies of any other standard forms of agreements used by the Company.",
+            "name": "other_agreement_contracts",
+            "type": "repeater",
+            "instructions": "Funders want to make sure they haven’t missed anything.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5e00f7f3d",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5e1bf7f3e",
+            "label": "Copies of all agreements (including confidentiality agreements), letters of intent or term sheets regarding (i) any acquisition by the Company of any company, business or material amount of assets or securities, or (ii) any acquisition of the Company or a material amount of its assets or securities by any other person.",
+            "name": "acquisition_contracts",
+            "type": "repeater",
+            "instructions": "Funders want to know if there are any liabilities through employee knowing inside knowledge about products, services, customers or special processes.  They want to know if the company has or plans to acquire any companies that could lead to new liabilities.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5e1bf7f3f",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5e3ef7f40",
+            "label": "Copies of any other agreements requiring consents or approvals in connection with the proposed financing.",
+            "name": "financing_consent_contracts",
+            "type": "repeater",
+            "instructions": "If there are agreements with shareholders and\/or clients that require that any loans the company enters into that could impact the business needs to be disclosed.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5e3ef7f41",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5e5ef7f42",
+            "label": "Schedule of all insurance policies in force covering property of the Company and any other insurance policies such as “key man” policies, directors’ and officers’ insurance or products liability policies.",
+            "name": "insurance_policies",
+            "type": "repeater",
+            "instructions": "Funders need to know when policies are due, the coverage amounts, what they cover and who are the beneficiaries. “Key man” is important because if something happens to the president, head of sales, or head of product development, if those positions apply to your business and the loss of those people could cripple the business, which would affect the businesses ability to payback their loan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5e5ef7f43",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5e92f7f44",
+            "label": "Copies of any other material contracts currently outstanding.",
+            "name": "other_material_contracts",
+            "type": "repeater",
+            "instructions": "This would be contracts for materials or services that could negatively impact the business.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5e92f7f45",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5dbc5ce4e17a2"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1586965927
+}

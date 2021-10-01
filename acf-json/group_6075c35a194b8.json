@@ -1,0 +1,77 @@
+{
+    "key": "group_6075c35a194b8",
+    "title": "Machinery & Equipment Appraisal or Valuation",
+    "fields": [
+        {
+            "key": "field_6075ca894e5de",
+            "label": "Please put together a list of machinery and equipment owned by the business that has a value of $5,000 or more. When compiling the list please mention if there is anything owed to another funder for the equipment if it is a lease or it is being used as collateral for another loan. If there is money owed, please list how much. You will need a third-party to verify the value of each piece of equipment you list.",
+            "name": "me_machinery_equipment",
+            "type": "file",
+            "instructions": "The machinery\/ equipment can be used as collateral for a loan and\/or in the event the business can’t pay the loan it can be sold off to pay down or off the loan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "return_format": "array",
+            "library": "uploadedTo",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_6075caef4e5df",
+            "label": "Please upload the most recent Business Valuation of the machinery and equipment.",
+            "name": "me_business_valuation",
+            "type": "file",
+            "instructions": "This relates to the question above.  The funder will use the machinery\/equipment as collateral and will want to sell it if the loan can’t be paid.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "return_format": "array",
+            "library": "uploadedTo",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_6075b9c6b4f0a"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1618332515
+}

@@ -1,0 +1,142 @@
+{
+    "key": "group_5dbc6b19d430b",
+    "title": "Marketing & sales",
+    "fields": [
+        {
+            "key": "field_5dbc6b4361fba",
+            "label": "Link to Instagram page",
+            "name": "link_to_instagram_page",
+            "type": "url",
+            "instructions": "Gives more insights into your business and how aggressive you are at marketing.  Not to worry if you don’t use social media because it might not be applicable to acquiring customers in your industry\/space or location.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5dbc6b6061fbb",
+            "label": "Link to Twitter account",
+            "name": "link_to_twitter_account",
+            "type": "url",
+            "instructions": "Gives more insights into your business and how aggressive you are at marketing.  Not to worry if you don’t use social media because it might not be applicable to acquiring customers in your industry\/space or location.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5dbc6b7061fbc",
+            "label": "Marketing plan",
+            "name": "marketing_plan",
+            "type": "file",
+            "instructions": "The more the funders understand your business, how you are going to create higher visibility and build brand awareness the more confident the funders will be that you will be able to grow your business. They may have ideas on how to help you and introductions they can make to grow the business.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5dbc6b7e61fbd",
+            "label": "Sales plan",
+            "name": "sales_plan",
+            "type": "file",
+            "instructions": "The more the funders understand your business and how you plan to acquire clients the more confidence they will have that you are a good investment whether it is a loan, purchase of equity or combination of both. They may have ideas on how to help you and introductions they can make to grow the business.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5dbc6b9961fbe",
+            "label": "List of top 10 clients (if B2B). Include Company Name, Company Contact Name, Contact Phone number, Contact Email, Yearly Revenue.",
+            "name": "top_10_clients",
+            "type": "file",
+            "instructions": "The quality of your clients, if you are a B2B company, is very powerful and important.  If the funder sees well known clients, it instills confidence in the business. Some funders will run credit checks on your clients to make sure they are good credit risks. They will check your process for vetting clients as well to make sure you are doing your best to make sure that you can collect your money. If you have less than 20 clients just mention between the top five and\/or 10.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5dbc6be761fc0",
+            "label": "Link to video tour \/ talk about your business (youtube, vimeo, etc)",
+            "name": "link_to_video_tour",
+            "type": "url",
+            "instructions": "If you have done a video provide a link or you can create a video using your cell phone or hire a professional.  Video brings your business alive and can inspire confidence.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5dbc6b0fe3ed5"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1582734666
+}

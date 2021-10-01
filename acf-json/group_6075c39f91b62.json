@@ -1,0 +1,211 @@
+{
+    "key": "group_6075c39f91b62",
+    "title": "Working Capital Facilities",
+    "fields": [
+        {
+            "key": "field_6075cd3a5ac97",
+            "label": "Please provide copies if you have a line of credit security agreements. Including any amendments, renewal letters, notices, default waivers or other related documents.",
+            "name": "wcf_line_of_credit",
+            "type": "repeater",
+            "instructions": "The funder wants to know if someone else has a claim to your business or personal assets.  The funder wants to make sure they have the first claim on any or all assets business or personal in case the client defaults.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6075cd685ac98",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "admin_column_enabled": 0,
+                    "admin_column_post_types": "",
+                    "admin_column_taxonomies": "",
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6075cd755ac99",
+            "label": "Please make copies of promissory notes. Including any amendments, renewal letters, notices, default waivers or other related documents.",
+            "name": "wcf_promissory_notes",
+            "type": "repeater",
+            "instructions": "The funder wants to know if anyone else has a claim to your assets.  For example, a friend, relative or vendor might have loaned you money and you signed a promissory note to pay that back in a specific number of years for a specified interest rate and that you either personally guaranteed the note or used the business as collateral.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6075cda45ac9a",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "admin_column_enabled": 0,
+                    "admin_column_post_types": "",
+                    "admin_column_taxonomies": "",
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6075cdbb5ac9b",
+            "label": "Please provide copies of factoring agreements. Including any amendments, renewal letters, notices, default waivers or other related documents.",
+            "name": "wcf_factoring_agreements",
+            "type": "repeater",
+            "instructions": "Often times companies either can’t get a bank loan and\/or big enough loan, so they sell their invoice to a funder called a factor, who will give on average 80% of the value of the invoice upfront and the remaining amount minus a percentage once the money is collected.  With factors they replace the bank and all of the paid invoices go to something called a lock box.  Essentially the factor has collateralized your invoices.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6075cdda5ac9c",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "admin_column_enabled": 0,
+                    "admin_column_post_types": "",
+                    "admin_column_taxonomies": "",
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6075ce1d5ac9d",
+            "label": "Please provide copies of Merchant Cash Advance Loans (MCAs) including any amendments, renewal letters, notices, default waivers or other related documents.",
+            "name": "wcf_cash_advances",
+            "type": "repeater",
+            "instructions": "These are usually used by retail stores and restaurants where they sell the average of the monthly retails sales for a period and the funder sweeps a certain amount of money from the borrowers account every day until the loan is paid off.  If the applicant is using its receipts for cash advances there may not be enough money left over to make the monthly payments on the loan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6075ce465ac9e",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "admin_column_enabled": 0,
+                    "admin_column_post_types": "",
+                    "admin_column_taxonomies": "",
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_6075baa5a9d5c"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1618333277
+}

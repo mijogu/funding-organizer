@@ -1,0 +1,54 @@
+{
+    "key": "group_6075c37c06bf8",
+    "title": "Affiliated Companies",
+    "fields": [
+        {
+            "key": "field_6075ccc012c84",
+            "label": "Please make a list of Affiliated Companies where the stockholders of the company requesting the loan own more than 20% of the Affiliated Company.  Example: A restaurant owner is borrowing money for her restaurant called Mary’s, Inc.  Mary has a catering business called “Mary’s Catering Inc.”  The applicant needs to list the ownership that Mary’s Inc. has in Mary’s Catering Inc and how much of the two companies the applicant(s) own.",
+            "name": "ac_affiliated_companies",
+            "type": "file",
+            "instructions": "The funder can use the second business as collateral.  Possibly the owner(s) owe money to another funding source using the first business to finance the second business as collateral or have a loan to run the business or are using financing for machinery, equipment and\/or land.  With home builders each development is separately incorporated, and the parent company would own equity in each development and the owners might own equity in the development separately from their shares in the main development company.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "return_format": "array",
+            "library": "uploadedTo",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_6075ba883854c"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1618332948
+}

@@ -1,0 +1,314 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+
+    &.tml-action {
+
+        article {
+            max-width: 750px;
+            margin: auto;
+        }
+
+    }
+
+    .site-main.narrow-form {
+        max-width: 750px;
+        margin: auto;
+    }
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+h1 {
+    &.entry-title {
+        text-transform: capitalize;
+    }
+}
+
+.entry-header {
+    margin-bottom: 1.5rem;
+}
+
+.hero-overlap {
+    margin-top: -42px;
+    @include media-breakpoint-up(lg) {
+        margin-top: -42px;
+    }
+}
+
+.navbar {
+    .custom-logo-link {
+        img {
+            height: auto;
+            width: 400px;
+        }
+    }
+}
+
+.homepage-hero {
+    // background: url(../img/hero.jpg) center right no-repeat;
+    // background-size: cover;
+    background-color: black;
+}
+
+.text-teal {
+    color: $fo_teal;
+}
+.bg-teal {
+    background-color: $fo_teal;
+}
+
+.post-edit-link {
+    display: none;
+}
+
+.funder-sidebar,
+.applicant-sidebar {
+
+    ul.menu {
+
+        padding-left: 0;
+        list-style: none;
+
+        li {
+            margin: .5em 0;
+            padding-bottom: .5em;
+            border-bottom: 1px solid #d5d9dd;
+        }
+
+        :last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        a {
+            text-transform: capitalize;
+        }
+
+        .current_page_item {
+            a {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+body.page-template-form-page {
+
+
+}
+
+.wppb-edit-user {
+    ul {
+        list-style: none;
+        padding-left: 0;
+    }
+}
+
+/* Pagination */
+.OLDpagination {
+    clear: both;
+    position: relative;
+    font-size:11px; /* Pagination text size */
+    line-height:13px;
+    float:right; /* Pagination float direction */
+
+    span,
+    a {
+        display:block;
+        float:left;
+        margin: 2px 2px 2px 0;
+        padding:6px 9px 5px 9px;
+        text-decoration:none;
+        width:auto;
+        color:#fff; /* Pagination text color */
+        background: $fo_brown; /* Pagination non-active background color */
+        -webkit-transition: background .15s ease-in-out;
+        -moz-transition: background .15s ease-in-out;
+        -ms-transition: background .15s ease-in-out;
+        -o-transition: background .15s ease-in-out;
+        transition: background .15s ease-in-out;
+    }
+
+    a:hover{
+        color:#fff;
+        background: $fo_teal; /* Pagination background on hover */
+    }
+
+    .current{
+        padding:6px 9px 5px 9px;
+        background: $fo_teal; /* Current page background */
+        color:#fff;
+    }
+}
+
+
+/* Loan application frontend page */
+.display-fieldgroup {
+
+    border-bottom: 1px solid #999;
+
+    &:first-child {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    &:last-child {
+        border-bottom: none !important;
+        margin-bottom: 0 !important;
+    }
+
+    .field-group-title {
+
+    }
+
+    ol {
+        .field-label {
+            font-weight: 500;
+            margin-bottom: .25rem;
+        }
+
+        .not-answered {
+
+            opacity: .5;
+
+            dt {
+                font-weight: 500;
+
+                &.field-value {
+                    font-style: italic;
+                }
+            }
+        }
+    }
+
+}
+
+.wppb-default-username {
+    display: none;
+    visibility: hidden;
+}
+
+.af-field-choose-funders {
+    ul.acf-checkbox-list li {
+        font-size: inherit;
+    }
+}
+
+.funder-table {
+    font-size: .85em;
+
+    @include media-breakpoint-down(md) {
+        font-size: .75em;
+    }
+}
+
+
+.af-form {
+    .acf-address-field {
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+
+            li {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}
+
+body.page-template-form-page {
+
+    .acf-form {
+
+        .acf-table {
+
+            .acf-row-handle:last-child {
+                display: none;
+                visibility: hidden;
+            }
+        }
+    }
+
+    .af-form {
+
+        .af-field {
+
+            &.has-instructions {
+
+                .af-label {
+
+                    label {
+
+                        .why-button {
+                            display: inline-block;
+                            font-size: .75em;
+                            margin-left: 10px;
+                            cursor: pointer;
+
+                            color: #155724;
+                            background-color: #d4edda;
+                            border: 1px solid #c3e6cb;
+                            padding: 3px 5px;
+                            border-radius: .25rem;
+                            font-weight: 500;
+
+                            &:hover {
+                                //     opacity: 1;
+                                background-color: #c3e6cb;
+                            }
+                        }
+                    }
+                }
+
+                .af-field-instructions {
+                    display: none;
+                    // height: 0;
+                    // transition: height 1s ease-out;
+
+                    &.show-instructions {
+                        // display: block;
+                        // height: auto;
+                    }
+                }
+
+
+            }
+        }
+    }
+}
+
+.application-list {
+
+    li {
+        margin-bottom: 1em;
+    }
+}
+
+.application-action-buttons {
+
+}
+
+#wrapper-footer-help {
+    background-color: #ced4da;
+}
+
+#wrapper-footer-above {
+    // background-color: #6c757d;
+    background-color: #adb5bd;
+}
+
+#wrapper-footer {
+    background-color: black;
+}
+
+.locked-application {
+
+    #custom-search {
+        visibility: hidden;
+        display: none;
+    }
+}

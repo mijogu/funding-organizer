@@ -1,0 +1,241 @@
+{
+    "key": "group_5dbc5f451059d",
+    "title": "Litigation",
+    "fields": [
+        {
+            "key": "field_5dbc5f6ba9c76",
+            "label": "Schedule of information regarding any litigation, administrative proceedings, or governmental investigations or inquiries to which the Company or any of its directors or officers is a party or in which it or they may become involved.",
+            "name": "litigation_schedules",
+            "type": "repeater",
+            "instructions": "Litigation can affect the business’s cash flow, the assets pledged to back the loan both corporate and personal along with legal costs, which are always considerable. The bank will do a search, so it is better to be honest.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5f8ea9c77",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5f9fa9c78",
+            "label": "Copies of all documents and correspondence relating to any material pending litigation, threatened litigation, or disputes that could potentially lead to litigation involving the Company or any of its directors or officers.",
+            "name": "litigation_correspondences",
+            "type": "repeater",
+            "instructions": "Litigation can affect the business’s cash flow, the assets pledged to back the loan both corporate and personal along with legal and possibly expert witness costs.  The bank will do a search, so it is better to be honest.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5f9fa9c79",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5fdca9c7a",
+            "label": "Copies of any settlement documents for litigation involving the Company or any of its directors or officers.",
+            "name": "settlement_documents",
+            "type": "repeater",
+            "instructions": "Funding sources want to know if there is unexpected money that has to be paid out and how that will affect the company’s finances. If you won a lawsuit and money is coming in that is good to mention as well because it will show a potentially stronger cash position and balance sheet if you have collected.  If you haven’t collected, then it shows a potential cash positively affecting the company.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5fdca9c7b",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5ff7a9c7c",
+            "label": "Copies of any decrees, orders or judgments of courts or governmental agencies affecting the Company.",
+            "name": "litigation_judgments",
+            "type": "repeater",
+            "instructions": "Funding sources want to know if you have any financial legal obligations and\/or if the ownership of the company has or will change. This would impact who and how the loan is guaranteed.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5ff7a9c7d",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc6044a9c7e",
+            "label": "Description of all disputes and matters concerning potential infringement, etc. concerning patents, trade secrets, trademarks, trade names, licenses, etc., and any notices alleging the same and legal correspondence and legal opinions concerning same.",
+            "name": "dispute_descriptions",
+            "type": "repeater",
+            "instructions": "Funding sources want to know if you are planning litigation and what the estimated cost will be and how it might materially effect your business, which you might be using the business, accounts receivable, your patents, trade marks and other intellectual property as collateral.  If a significant part of the value of your business is based on intellectual property the funding sources want to take this into account.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc6044a9c7f",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5dbc5f3a94435"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1586965941
+}

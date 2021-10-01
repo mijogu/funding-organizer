@@ -1,0 +1,307 @@
+{
+    "key": "group_5e2f4b720e37d",
+    "title": "[Form] Create Application",
+    "fields": [
+        {
+            "key": "field_5e2f4b7f3aabc",
+            "label": "Company name",
+            "name": "company_name",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f6a5e24edbc9",
+            "label": "First name",
+            "name": "first_name",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": [
+                "post",
+                "page",
+                "loanapplication",
+                "af_form",
+                "af_entry"
+            ],
+            "admin_column_taxonomies": [
+                "category",
+                "post_tag",
+                "link_category"
+            ],
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f6a5e2dedbca",
+            "label": "Last name",
+            "name": "last_name",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": [
+                "post",
+                "page",
+                "loanapplication",
+                "af_form",
+                "af_entry"
+            ],
+            "admin_column_taxonomies": [
+                "category",
+                "post_tag",
+                "link_category"
+            ],
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f6a630b9222b",
+            "label": "TItle",
+            "name": "title",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": [
+                "post",
+                "page",
+                "loanapplication",
+                "af_form",
+                "af_entry"
+            ],
+            "admin_column_taxonomies": [
+                "category",
+                "post_tag",
+                "link_category"
+            ],
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f6a5e45edbcc",
+            "label": "Type of incorporation",
+            "name": "type_of_incorporation",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "choices": {
+                "Sole proprietorship": "Sole proprietorship",
+                "Partnership": "Partnership",
+                "LLC": "LLC",
+                "C Corporation": "C Corporation",
+                "S Corporation": "S Corporation",
+                "B Corporation": "B Corporation",
+                "Nonprofit corporation": "Nonprofit corporation"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "label",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f6a6209a10bd",
+            "label": "Company address",
+            "name": "company_address",
+            "type": "address",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": [
+                "post",
+                "page",
+                "loanapplication",
+                "af_form",
+                "af_entry"
+            ],
+            "admin_column_taxonomies": [
+                "category",
+                "post_tag",
+                "link_category"
+            ],
+            "output_type": "html",
+            "address_layout": "[[{\"id\":\"street1\",\"label\":\"Street 1\"}],[{\"id\":\"street2\",\"label\":\"Street 2\"}],[],[{\"id\":\"city\",\"label\":\"City\"},{\"id\":\"state\",\"label\":\"State\"},{\"id\":\"zip\",\"label\":\"Postal Code\"}],[]]",
+            "address_options": "{\"street1\":{\"id\":\"street1\",\"label\":\"Street 1\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"street1\",\"separator\":\"\"},\"street2\":{\"id\":\"street2\",\"label\":\"Street 2\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"street2\",\"separator\":\"\"},\"street3\":{\"id\":\"street3\",\"label\":\"Street 3\",\"defaultValue\":\"\",\"enabled\":false,\"cssClass\":\"street3\",\"separator\":\"\"},\"city\":{\"id\":\"city\",\"label\":\"City\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"city\",\"separator\":\",\"},\"state\":{\"id\":\"state\",\"label\":\"State\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"state\",\"separator\":\"\"},\"zip\":{\"id\":\"zip\",\"label\":\"Postal Code\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"zip\",\"separator\":\"\"},\"country\":{\"id\":\"country\",\"label\":\"Country\",\"defaultValue\":\"\",\"enabled\":false,\"cssClass\":\"country\",\"separator\":\"\"}}"
+        },
+        {
+            "key": "field_5f6a6204a10bc",
+            "label": "Phone",
+            "name": "phone",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": [
+                "post",
+                "page",
+                "loanapplication",
+                "af_form",
+                "af_entry"
+            ],
+            "admin_column_taxonomies": [
+                "category",
+                "post_tag",
+                "link_category"
+            ],
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f6a61f6a10bb",
+            "label": "Website",
+            "name": "link_to_website",
+            "type": "url",
+            "instructions": "So they can get a better understanding of your business. If you have an up to date web site that is well written with no grammatical mistakes it reassures the funder about the discipline and thoroughness of the owner\/leadership.",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": [
+                "post",
+                "page",
+                "loanapplication",
+                "af_form",
+                "af_entry"
+            ],
+            "admin_column_taxonomies": [
+                "category",
+                "post_tag",
+                "link_category"
+            ],
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f6a62f39222a",
+            "label": "How did you find out about Funding Organizer?",
+            "name": "heard_about",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": [
+                "post",
+                "page",
+                "loanapplication",
+                "af_form",
+                "af_entry"
+            ],
+            "admin_column_taxonomies": [
+                "category",
+                "post_tag",
+                "link_category"
+            ],
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5e2f4a60a1fbb"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1600809677
+}

@@ -1,0 +1,199 @@
+{
+    "key": "group_5e860a3fea83d",
+    "title": "Assets",
+    "fields": [
+        {
+            "key": "field_5e860a40037c9",
+            "label": "Spreadsheet with any homes, commercial buildings, rental properties or land valued at $10,000 that have been valued by a third party.  Please include scanned in copies of any third party valuations, the amounts of loans the assets are being used for in a spread sheet or word document.",
+            "name": "assets_properties",
+            "type": "repeater",
+            "instructions": "Banks are interested in any assets you have that can be used as collateral, especially homes, rental properties, commercial buildings and land.  The benefit to you as the borrower is that you can potentially increase the amount you are borrowing and can back stop your loan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5e860a4008aed",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5e860a400ec87",
+            "label": "Spreadsheet with any machines valued over $10,000 that have been valued by a third party such as printing presses, vending machines, machines that produce products, etc.  Please include scanned in copies of any third party valuations, the amounts of loans the assets are being used for in a spread sheet or word document.",
+            "name": "assets_machines",
+            "type": "repeater",
+            "instructions": "Banks are interested in any assets you have that can be used as collateral.  The benefit to you as the borrower is that you can potentially increase the amount you are borrowing and can back stop your loan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5e860a40121fd",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5e860c3196e7b",
+            "label": "Spreadsheet of any vehicles owned by you or the business valued over $10,000 that have been valued by a third party.  Please include scanned in copies of any third party valuations, the amounts of loans the assets are being used for in a spread sheet or word document.",
+            "name": "assets_vehicles",
+            "type": "repeater",
+            "instructions": "Banks are interested in any assets you have that can be used as collateral.  The benefit to you as the borrower is that you can potentially increase the amount you are borrowing and can back stop your loan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5e860c3196e7c",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "",
+                    "library": "",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5e860c2696e79",
+            "label": "Spreadsheet of any collectibles you personally own that you could use as collateral valued over $10,000 that have been valued by a third party. (Coins, paintings, comic books, baseball cards, etc.) Please include scanned in copies of any third party valuations, the amounts of loans the assets are being used for in a spread sheet or word document.",
+            "name": "assets_collectibles",
+            "type": "repeater",
+            "instructions": "Banks are interested in any assets you have that can be used as collateral.  Not all banks will take collectibles because they are hard to dispose.  The benefit to you as the borrower is that you can potentially increase the amount you are borrowing and can back stop your loan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5e860c2696e7a",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5e8618ae7bc92"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1585847665
+}

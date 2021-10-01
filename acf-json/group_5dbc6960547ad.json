@@ -1,0 +1,217 @@
+{
+    "key": "group_5dbc6960547ad",
+    "title": "Intellectual property",
+    "fields": [
+        {
+            "key": "field_5dbc697d708bb",
+            "label": "Copies of all proprietary information and assignment of inventions agreements signed by past and present employees and consultants (or the form of such agreement used by the Company and a list of all employees and consultants who have signed that form, identifying any deviations therefrom with respect to any particular individuals).",
+            "name": "invention_assignments",
+            "type": "repeater",
+            "instructions": "This is to make sure no one has a claim on the company’s intellectual property.  The IP may have significant value that a banker, angel investor or venture capitalist would consider important for providing capital. Your company might not have IP, so you can write that you have no IP.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc69a1708bc",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc69be708bd",
+            "label": "List of all employees and consultants who have not signed a proprietary information and assignment of inventions agreement, including a list of any periods of time where key employees or consultants performed services for the Company while not bound by such agreements.",
+            "name": "employees_not_signed_invention_agreements",
+            "type": "file",
+            "instructions": "This is to make sure no one has a claim on the company’s intellectual property.  The IP may have significant value that a banker, angel investor or venture capitalist would consider important for providing capital. Your company might not have IP, so you can write that you have no IP.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5dbc69fc708be",
+            "label": "Copies of any documentation relating to the transfer to the Company or any employee of any intellectual property or technology.",
+            "name": "intellectual_property_transfers",
+            "type": "repeater",
+            "instructions": "This is important to know because the IP acquired might improve the value of the business or the IP discarded to decrease the value of the business.  In either case it will have a material impact.  Your company might not have IP, so you can write that you have no IP.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc69fc708bf",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc6a24708c0",
+            "label": "Copies of licenses or agreements of any kind with respect to the Company’s or other parties’ patent, copyright, trade secret or other proprietary rights, proprietary information or technology, other than licenses or agreements pertaining to “off-the-shelf” or standard products.",
+            "name": "proprietary_agreements",
+            "type": "repeater",
+            "instructions": "Your company might have signed agreements to license some type of intellectual property.  The funder needs to know the cost, length of time and any future payments.  The losing of the license could be detrimental to the company, so the funder needs to assess the impact. Your company might not have IP, so you can write that you have no IP.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc6a24708c1",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc6a5a708c2",
+            "label": "List of any trademarks, trade names, brands, copyrights, service marks or domain names, and any searches relevant that have been done with respect to such items.",
+            "name": "proprietary_trademarks_copyrights",
+            "type": "textarea",
+            "instructions": "IP may have value so the funders need to know whatever IP you own. Your company might not have IP or applied for IP, so you can write that you have no IP.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        },
+        {
+            "key": "field_5dbc6a9c708c3",
+            "label": "List of all foreign and domestic patents and patent licenses held by the Company and of patent applications, and any searches relevant that have been done with respect to such items.",
+            "name": "patents_licenses",
+            "type": "textarea",
+            "instructions": "Why: IP may have value so the funders need to know whatever IP you own. Your company might not have or applied for IP, so you can write that you have no IP.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5dbc6952b547a"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1586965996
+}

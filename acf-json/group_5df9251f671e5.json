@@ -1,0 +1,94 @@
+{
+    "key": "group_5df9251f671e5",
+    "title": "Application fields",
+    "fields": [
+        {
+            "key": "field_5e21dce3e0a2d",
+            "label": "Applicant ID",
+            "name": "applicant_id",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60944e4c6dbd5",
+            "label": "Deleted File IDs",
+            "name": "deleted_file_ids",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": [
+                "post",
+                "page",
+                "loanapplication",
+                "appsubmission",
+                "af_form",
+                "af_entry",
+                "acfe-dbt",
+                "acfe-form",
+                "acfe-dop",
+                "acfe-dpt",
+                "acfe-dt"
+            ],
+            "admin_column_taxonomies": [
+                "category",
+                "post_tag",
+                "link_category",
+                "acf-field-group-category"
+            ],
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1620332128
+}

@@ -1,0 +1,161 @@
+{
+    "key": "group_5dbc66f7cfb61",
+    "title": "Governmental regulations & filings",
+    "fields": [
+        {
+            "key": "field_5dbc670635487",
+            "label": "Copies of all material governmental permits, licenses, etc. of the Company, including those relating to the issuance or transfer of the Company’s securities.",
+            "name": "governmental_permits",
+            "type": "repeater",
+            "instructions": "To make sure you comply so they business isn’t fined and\/or closed down by any governmental agency.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc671f35488",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": 0,
+                    "max_size": 0,
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc672d941f6",
+            "label": "Copies of all reports filed and significant correspondence with any state or federal regulatory agencies.",
+            "name": "governmental_correspondences",
+            "type": "repeater",
+            "instructions": "To make sure the business is in compliance with all laws and regulations and if there are any issues there are copies of government correspondence along the business’s responses. This could impact whether the business gets funding depending on the problem.  Make sure your meticulous in keeping all records and your governmental correspondence.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc672d941f7",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc675a941f8",
+            "label": "During the past 5 years, has the Company, any of its affiliates or joint ventures, or any of its or their employees, directors, officers, stockholders, principals or third-party intermediaries acting on its or their behalf been the subject of any claim, investigation (internal or external) or other proceeding involving allegations of corruption?",
+            "name": "corruption_allegations",
+            "type": "button_group",
+            "instructions": "Funders will run background checks on everyone of significance in the business and if there are any allegations you need to let the funders know upfront.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "choices": {
+                "yes": "yes",
+                "no": "no"
+            },
+            "allow_null": 1,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5dbc68e2941f9",
+            "label": "During the past 5 years, has the Company or any of its affiliates or joint ventures been the subject of any claim, investigation (internal or external) or other proceeding involving occupational safety and health laws or environmental protection laws?",
+            "name": "health_safety_investigation",
+            "type": "button_group",
+            "instructions": "Funders will run background checks to see if there are any environment laws broken, fines issued or chance the government could impose heavy fines or shut the business down if compliance requirements haven’t been met.  Make sure you are button down in this area and if there is a problem let the funder know upfront so the bond of trust is not broken.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "choices": {
+                "yes": "yes",
+                "no": "no"
+            },
+            "allow_null": 1,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5dbc66dfb8e78"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1586965988
+}

@@ -1,0 +1,144 @@
+{
+    "key": "group_6075c32f0700e",
+    "title": "Corporate Real Estate Assets",
+    "fields": [
+        {
+            "key": "field_6075c91ff4b12",
+            "label": "Please provide a list of real estate owned by corporation or subsidiaries.",
+            "name": "cre_real_estate",
+            "type": "file",
+            "instructions": "Funders will take that as collateral if it is unincumbered by liens and it is part of the formula for determining the size of the loan and creditworthiness.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "return_format": "array",
+            "library": "uploadedTo",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_6075c98ff4b13",
+            "label": "Please provide a copy of most recent Environmental Report Phase One and Two.",
+            "name": "cre_environmental_reports",
+            "type": "repeater",
+            "instructions": "If the company owns real estate and that real estate is part of the collateral for the loan the funder want to know that there are no environmental problems in case it has to be sold.  If there is a problem, they want to know what is it and how much will it cost to fix.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_60773c66a9fe7",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "admin_column_enabled": 0,
+                    "admin_column_post_types": "",
+                    "admin_column_taxonomies": "",
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_6075ca00f4b14",
+            "label": "Please provide copies of all Loans\/Mortgages and most recent account statement (within last 30 days).",
+            "name": "cre_loans_mortgages",
+            "type": "repeater",
+            "instructions": "The funder wants to see you have kept current with your payments and how much equity has been built up.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_6075ca46f4b15",
+                    "label": "File",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "admin_column_enabled": 0,
+                    "admin_column_post_types": "",
+                    "admin_column_taxonomies": "",
+                    "return_format": "array",
+                    "library": "uploadedTo",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_6075b9939e221"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1618427220
+}

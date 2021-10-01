@@ -1,0 +1,91 @@
+{
+    "key": "group_5dbc6e4c23c71",
+    "title": "References",
+    "fields": [
+        {
+            "key": "field_5dbc6e614d632",
+            "label": "Client references- spread sheet of three references-Company, First Name, Second Name, Position, Address, City, State, Zip, Phone, Zip Code, No. of Yrs as a Client, Ave Annual spend",
+            "name": "client_references",
+            "type": "file",
+            "instructions": "Funders will want to speak to at least three client references to understand how well you do your job and if clients are loyal to your business.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "uploadedTo",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5dbc6e734d633",
+            "label": "Vendor references- spread sheet of three references-Company, First Name, Second Name, Position, Address, City, State, Zip, Phone, Zip Code, No. of Yrs as a Client, Ave Annual spend",
+            "name": "vendor_references",
+            "type": "file",
+            "instructions": "Funders will want to find out if you are a good customer, get an opinion on the strength of the business and how ethical you run your business.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5dbc6e8c4d634",
+            "label": "Personal Non-Business References-spread sheet of three references-First Name, Second Name, Position, Address, City, State, Zip, Phone, Zip Code, No. of Yrs knowing applicant",
+            "name": "personal_refences",
+            "type": "file",
+            "instructions": "Funders want to learn from people that know you well what kind of person you are, your work ethic and integrity.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5dbc6e2cdc09c"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1578005325
+}

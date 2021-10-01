@@ -1,0 +1,290 @@
+{
+    "key": "group_5dbc654252ac5",
+    "title": "Employees",
+    "fields": [
+        {
+            "key": "field_5dbc6552c0b2f",
+            "label": "List of all officers and directors, together with management and organization charts.",
+            "name": "list_officers",
+            "type": "file",
+            "instructions": "They want to see if any of the people involved with the business is someone, they have done business with before, know by positive or negative reputation.  They will find out eventually so just upload a word document or Power Point slide.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "return_format": "array",
+            "library": "all",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_5dbc6593c0b30",
+            "label": "Copies of all employment and consulting agreements.",
+            "name": "employment_agreements",
+            "type": "repeater",
+            "instructions": "They want to know the compensation arrangements, especially as it pertains to stock ownership, along with future liabilities such as you might sign someone to a three-year contract and if you fire them, depending on the reason, you might be still liable for their salaries.  That could impact cashflow as you hire someone to replace them and now you have that salary to pay as well.  As for consulting agreements, there maybe a length of time you have to pay that person regardless if they perform or not and that would impact cashflow along with whether they have liens on your business.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc65aac0b31",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc65bdc0b32",
+            "label": "Copies of all offer letters (or the form of offer letter used by the Company and a list of all employees who have signed that form, identifying any deviations therefrom with respect to any particular individuals).",
+            "name": "offer_letters",
+            "type": "repeater",
+            "instructions": "Funders want to know your legal and financial obligations that could impact the health and cashflow of the business.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc65bdc0b33",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc65dcc0b34",
+            "label": "Copies of all bonus plans, retirement plans, pension plans, deferred compensation plans, profit sharing, management incentive or other employee benefit agreements.",
+            "name": "employee_benefit_agreements",
+            "type": "repeater",
+            "instructions": "Funders want to make sure they didn’t miss any funding obligations that could impact the ability of the company to pay back loans or if sold effect the potential sale of the business.  In the event the business is being sold, more than likely it will be an asset sale so the new owners don’t take on pass liabilities.  With retirement plans the owners are responsible by law for making the plan financially whole.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc65dcc0b35",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc6606c0b36",
+            "label": "Copies of all union or collective bargaining contracts.",
+            "name": "collective_bargaining_contracts",
+            "type": "repeater",
+            "instructions": "Funders want to know future financial obligations and how that will affect cashflow.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc6606c0b37",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc6626c0b38",
+            "label": "Description of any significant labor problems or union activities the Company has experienced, including any collective bargaining agreements.",
+            "name": "labor_problems",
+            "type": "textarea",
+            "instructions": "If you are having or could have a labor problem that could affect delivery of products and services, which impacts cashflow, could raise your debt levels and impact the long-term viability of the business.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_5dbc6648c0b39",
+            "label": "Does the Company or any of its affiliates or joint ventures have or expect to have any non-U.S. employees, directors or officers?  If yes, in what countries?",
+            "name": "non_us_employees",
+            "type": "button_group",
+            "instructions": "Funders want to make sure your company isn’t in violation of the Foreign Corrupt Practices Act and possibly bribing.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "choices": {
+                "yes": "yes",
+                "no": "no"
+            },
+            "allow_null": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value"
+        },
+        {
+            "key": "field_5dbc6667c0b3a",
+            "label": "List countries.",
+            "name": "non_us_employees_countries",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_5dbc6648c0b39",
+                        "operator": "==",
+                        "value": "yes"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": "br"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5dbc6535d78d5"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1586965973
+}

@@ -1,0 +1,199 @@
+{
+    "key": "group_5dbc59f771cf8",
+    "title": "Debt financings",
+    "fields": [
+        {
+            "key": "field_5dbc5a0b9c0e1",
+            "label": "Copies of bank lines or credit agreements, including any amendments, renewal letters, notices, default waivers or other related documents.",
+            "name": "bank_lines",
+            "type": "repeater",
+            "instructions": "You have to disclose financial institutions and individuals you have borrowed money from. More than likely the financial institution you are submitting this information will want to try to take the current creditors out so they can be in the first position with liens on your assets, property and cash.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5a339c0e2",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5a519c0e3",
+            "label": "Copies of any other documents or agreements evidencing borrowings (secured or unsecured) by the Company, including loan agreements, promissory notes and other evidences of indebtedness, including guarantees.",
+            "name": "financing_agreements",
+            "type": "repeater",
+            "instructions": "Aside from bank lines and credit agreements you might have borrowed by from individuals, strategic partners, vendors, and clients.  You might have sold your receivables to financiers called factors.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5a519c0e4",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5a819c0e5",
+            "label": "Copies of any other documents or agreements evidencing other material financing agreements, including sale and leaseback arrangements and installment purchases.",
+            "name": "other_financing_agreements",
+            "type": "repeater",
+            "instructions": "If you are leasing or installment purchasing of vehicles, copiers, and buildings funding sources need to know.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5a819c0e6",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dbc5bec9c0e8",
+            "label": "Copies of any correspondence with lenders, including all compliance reports submitted by the Company or its independent public accountants.",
+            "name": "lender_correspondences",
+            "type": "repeater",
+            "instructions": "Funders just want to make sure they under any current relationships you have with other funding sources.  This just doesn’t pertain to banks, credit unions and savings and loans, you might be borrowing or selling stock to strategic corporate investors and\/or individuals.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5dbc5bec9c0e9",
+                    "label": "file",
+                    "name": "file",
+                    "type": "file",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "return_format": "array",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5dbc58a224eb8"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1586965915
+}

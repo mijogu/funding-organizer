@@ -1,0 +1,641 @@
+{
+    "key": "group_5e39e78f420b9",
+    "title": "[User] Funder fields",
+    "fields": [
+        {
+            "key": "field_5e39d2ab96c87",
+            "label": "Funding Institution",
+            "name": "funder_company_name",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5e21df8def522",
+            "label": "Application ID",
+            "name": "application_id",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "post_type": [
+                "loanapplication"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "id",
+            "ui": 1
+        },
+        {
+            "key": "field_5ec6a5310e53a",
+            "label": "Email",
+            "name": "email",
+            "type": "text",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ec6a2fe0e533",
+            "label": "First name",
+            "name": "first_name",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ec6a3560e534",
+            "label": "Last name",
+            "name": "last_name",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ec6a4320e535",
+            "label": "Title",
+            "name": "title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ec6a4820e536",
+            "label": "Type of Funding",
+            "name": "type_of_funding",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "choices": {
+                "bank": "Bank",
+                "creditunion": "Credit Union",
+                "factor": "Factor",
+                "broke": "Loan Broker",
+                "nonbank": "Non-Bank Lender",
+                "savingsloan": "Savings and Loan"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "vertical",
+            "return_format": "label",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_5ec6a4f40e537",
+            "label": "Business Address",
+            "name": "address",
+            "type": "address",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "output_type": "array",
+            "address_layout": "[[{\"id\":\"street1\",\"label\":\"Street 1\"}],[{\"id\":\"street2\",\"label\":\"Street 2\"}],[],[{\"id\":\"city\",\"label\":\"City\"},{\"id\":\"state\",\"label\":\"State\"},{\"id\":\"zip\",\"label\":\"Postal Code\"}],[]]",
+            "address_options": "{\"street1\":{\"id\":\"street1\",\"label\":\"Street 1\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"street1\",\"separator\":\"\"},\"street2\":{\"id\":\"street2\",\"label\":\"Street 2\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"street2\",\"separator\":\"\"},\"street3\":{\"id\":\"street3\",\"label\":\"Street 3\",\"defaultValue\":\"\",\"enabled\":false,\"cssClass\":\"street3\",\"separator\":\"\"},\"city\":{\"id\":\"city\",\"label\":\"City\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"city\",\"separator\":\",\"},\"state\":{\"id\":\"state\",\"label\":\"State\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"state\",\"separator\":\"\"},\"zip\":{\"id\":\"zip\",\"label\":\"Postal Code\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"zip\",\"separator\":\"\"},\"country\":{\"id\":\"country\",\"label\":\"Country\",\"defaultValue\":\"\",\"enabled\":false,\"cssClass\":\"country\",\"separator\":\"\"}}"
+        },
+        {
+            "key": "field_5ec6a5160e538",
+            "label": "Office phone",
+            "name": "office_phone",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ec6a5290e539",
+            "label": "Cell phone",
+            "name": "cell_phone",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ec6a7887f713",
+            "label": "Are you an SBA Lender?",
+            "name": "sba_lender",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec6a7c97f714",
+            "label": "Types of Loans",
+            "name": "types_of_loans",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "choices": {
+                "acquisition": "Acquisition",
+                "building-improvements": "Building Improvements",
+                "equipment": "Equipment",
+                "inventory": "Inventory",
+                "invoice-financing": "Invoice Financing",
+                "leasehold-improvements": "Leasehold Improvements",
+                "operating": "Operating",
+                "realestate": "Real Estate",
+                "working-capital": "Working Capital"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "vertical",
+            "toggle": 0,
+            "return_format": "label",
+            "save_custom": 0
+        },
+        {
+            "key": "field_5ec6a8297f715",
+            "label": "Minumum Loan Size",
+            "name": "minumum_loan_size",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "$",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ec6a8697f716",
+            "label": "Maximum Loan Size",
+            "name": "maximum_loan_size",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "$",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ec6a88c7f717",
+            "label": "US Coverage Area",
+            "name": "geographic_coverage_area",
+            "type": "select",
+            "instructions": "Hold down control (PC) or command (Mac) to select multiple states or select \"All states\".",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "choices": {
+                "All states": "All states",
+                "AL": "Alabama",
+                "AK": "Alaska",
+                "AZ": "Arizona",
+                "AR": "Arkansas",
+                "CA": "California",
+                "CO": "Colorado",
+                "CT": "Connecticut",
+                "DE": "Delaware",
+                "FL": "Florida",
+                "GA": "Georgia",
+                "HI": "Hawaii",
+                "ID": "Idaho",
+                "IL": "Illinois",
+                "IN": "Indiana",
+                "IA": "Iowa",
+                "KS": "Kansas",
+                "KY": "Kentucky",
+                "LA": "Louisiana",
+                "ME": "Maine",
+                "MD": "Maryland",
+                "MA": "Massachusetts",
+                "MI": "Michigan",
+                "MN": "Minnesota",
+                "MS": "Mississippi",
+                "MO": "Missouri",
+                "MT": "Montana",
+                "NE": "Nebraska",
+                "NV": "Nevada",
+                "NH": "New Hampshire",
+                "NJ": "New Jersey",
+                "NM": "New Mexico",
+                "NY": "New York",
+                "NC": "North Carolina",
+                "ND": "North Dakota",
+                "OH": "Ohio",
+                "OK": "Oklahoma",
+                "OR": "Oregon",
+                "PA": "Pennsylvania",
+                "RI": "Rhode Island",
+                "SC": "South Carolina",
+                "SD": "South Dakota",
+                "TN": "Tennessee",
+                "TX": "Texas",
+                "UT": "Utah",
+                "VT": "Vermont",
+                "VA": "Virginia",
+                "WA": "Washington",
+                "WV": "West Virginia",
+                "WI": "Wisconsin",
+                "WY": "Wyoming"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 1,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_60917ba62c17b",
+            "label": "Non-US Coverage Area",
+            "name": "nonus_geographic_coverage_area",
+            "type": "select",
+            "instructions": "Hold down control (PC) or command (Mac) to select multiple states or select \"All states\".",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": [
+                "post",
+                "page",
+                "loanapplication",
+                "appsubmission",
+                "af_form",
+                "af_entry",
+                "acfe-dbt",
+                "acfe-form",
+                "acfe-dop",
+                "acfe-dpt",
+                "acfe-dt"
+            ],
+            "admin_column_taxonomies": [
+                "category",
+                "post_tag",
+                "link_category",
+                "acf-field-group-category"
+            ],
+            "choices": {
+                "Canada": "Canada",
+                "England": "England",
+                "Ireland": "Ireland",
+                "Australia": "Australia",
+                "Israel": "Israel",
+                "India": "India",
+                "Scotland": "Scotland"
+            },
+            "default_value": [],
+            "allow_null": 0,
+            "multiple": 1,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5efba039ca023",
+            "label": "How did you find out about Funding Organizer?",
+            "name": "heard_about",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": [
+                "post",
+                "page",
+                "loanapplication",
+                "af_form",
+                "af_entry"
+            ],
+            "admin_column_taxonomies": [
+                "category",
+                "post_tag",
+                "link_category"
+            ],
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5ec6a9007f718",
+            "label": "Funder Status",
+            "name": "funder_status",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "choices": {
+                "pending": "Pending",
+                "approved": "Approved",
+                "denied": "Denied"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ec6ab847f719",
+            "label": "Partner Funder Status",
+            "name": "partner_funder_status",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "choices": {
+                "none": "None",
+                "pending": "Pending",
+                "approved": "Approved",
+                "denied": "Denied"
+            },
+            "default_value": "none",
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "value",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5ec6e0468e046",
+            "label": "Is Funder approved email sent",
+            "name": "is_funder_approved_email_sent",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec6e0738e047",
+            "label": "Is Partner Funder approved email sent",
+            "name": "is_partner_funder_approved_email_sent",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_5ec98578450f4",
+            "label": "Invite id",
+            "name": "unique_invite_code",
+            "type": "text",
+            "instructions": "If a Funder does not yet have an Invite ID, just save their profile and a code will be generated.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "user_form",
+                "operator": "==",
+                "value": "edit"
+            },
+            {
+                "param": "user_role",
+                "operator": "==",
+                "value": "funder"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5ec6a55b507c4"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5ec6b9b74209e"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1620147445
+}

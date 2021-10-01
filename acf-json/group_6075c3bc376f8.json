@@ -1,0 +1,77 @@
+{
+    "key": "group_6075c3bc376f8",
+    "title": "Other Assets",
+    "fields": [
+        {
+            "key": "field_6075ce9f6de9f",
+            "label": "Please provide a spread sheet of any inventory are you holding and the age of the inventory.",
+            "name": "oa_inventory_quantities",
+            "type": "file",
+            "instructions": "The inventory can be used as collateral and the funder needs know the age of the inventory to determine the value of it and whether it be sold off in the event the borrower can pay the loan.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "return_format": "array",
+            "library": "uploadedTo",
+            "min_size": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_6075cf246dea0",
+            "label": "Please upload documents showing any patents pending.",
+            "name": "oa_patents_pending",
+            "type": "textarea",
+            "instructions": "Patents potentially have a lot of value depending on who is buying them.  The funder will want to know how close the company is to getting the patent and how defensible they are from competitors. If the company is close to the patent and it is in a high growth area the funder will accept it as collateral.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "",
+            "new_lines": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_6075bb043d729"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1618427374
+}

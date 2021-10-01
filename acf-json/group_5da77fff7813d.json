@@ -1,0 +1,372 @@
+{
+    "key": "group_5da77fff7813d",
+    "title": "Company information",
+    "fields": [
+        {
+            "key": "field_5da77fffa0ecd",
+            "label": "Company name",
+            "name": "company_name",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f6cba57aea31",
+            "label": "Loan amount requested",
+            "name": "loan_amount",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": "",
+            "admin_column_taxonomies": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "$",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5f6cba8faea32",
+            "label": "Use(s) of loan",
+            "name": "uses_of_loan",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": [
+                "post",
+                "page",
+                "loanapplication",
+                "af_form",
+                "af_entry"
+            ],
+            "admin_column_taxonomies": [
+                "category",
+                "post_tag",
+                "link_category"
+            ],
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5da77fffa0f0c",
+            "label": "Company address",
+            "name": "company_address",
+            "type": "address",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "output_type": "html",
+            "address_layout": "[[{\"id\":\"street1\",\"label\":\"Street 1\"}],[{\"id\":\"street2\",\"label\":\"Street 2\"}],[],[{\"id\":\"city\",\"label\":\"City\"},{\"id\":\"state\",\"label\":\"State\"},{\"id\":\"zip\",\"label\":\"Postal Code\"},{\"id\":\"country\",\"label\":\"Country\"}],[]]",
+            "address_options": "{\"street1\":{\"id\":\"street1\",\"label\":\"Street 1\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"street1\",\"separator\":\"\"},\"street2\":{\"id\":\"street2\",\"label\":\"Street 2\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"street2\",\"separator\":\"\"},\"street3\":{\"id\":\"street3\",\"label\":\"Street 3\",\"defaultValue\":\"\",\"enabled\":false,\"cssClass\":\"street3\",\"separator\":\"\"},\"city\":{\"id\":\"city\",\"label\":\"City\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"city\",\"separator\":\",\"},\"state\":{\"id\":\"state\",\"label\":\"State\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"state\",\"separator\":\"\"},\"zip\":{\"id\":\"zip\",\"label\":\"Postal Code\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"zip\",\"separator\":\"\"},\"country\":{\"id\":\"country\",\"label\":\"Country\",\"defaultValue\":\"\",\"enabled\":true,\"cssClass\":\"country\",\"separator\":\"\"}}"
+        },
+        {
+            "key": "field_5da77fffa0f1e",
+            "label": "Phone",
+            "name": "phone",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5da77fffa0f2d",
+            "label": "Industry",
+            "name": "industry",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5da77fffa0f3d",
+            "label": "Years in business",
+            "name": "years_in_business",
+            "type": "number",
+            "instructions": "The longer you are in business the more reliable and stable you are perceived to be.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "min": "",
+            "max": "",
+            "step": ""
+        },
+        {
+            "key": "field_5dbc6b2761fb9",
+            "label": "Link to website",
+            "name": "link_to_website",
+            "type": "url",
+            "instructions": "So they can get a better understanding of your business. If you have an up to date web site that is well written with no grammatical mistakes it reassures the funder about the discipline and thoroughness of the owner\/leadership.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_5f6a6150c32b2",
+            "label": "Type of incorporation",
+            "name": "type_of_incorporation",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "admin_column_enabled": 0,
+            "admin_column_post_types": [
+                "post",
+                "page",
+                "loanapplication",
+                "af_form",
+                "af_entry"
+            ],
+            "admin_column_taxonomies": [
+                "category",
+                "post_tag",
+                "link_category"
+            ],
+            "choices": {
+                "Sole proprietorship": "Sole proprietorship",
+                "Partnership": "Partnership",
+                "LLC": "LLC",
+                "C Corporation": "C Corporation",
+                "S Corporation": "S Corporation",
+                "B Corporation": "B Corporation",
+                "Nonprofit corporation": "Nonprofit corporation"
+            },
+            "default_value": false,
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "return_format": "label",
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_5da77fffa0f4e",
+            "label": "Tax ID",
+            "name": "tax_id",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5da77fffa0f5d",
+            "label": "Bios of President, COO, VP of Sales, VP of Marketing, CFO",
+            "name": "bios",
+            "type": "repeater",
+            "instructions": "The depth and experience of the team reassures them if something happens to the owner that the business will go on and be able to make its payments.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "",
+            "sub_fields": [
+                {
+                    "key": "field_5da77fffbf0f7",
+                    "label": "bio",
+                    "name": "bio",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "hide_admin": 0,
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": "br"
+                }
+            ]
+        },
+        {
+            "key": "field_5da77fffcb825",
+            "label": "Accounting firm",
+            "name": "accounting_firm",
+            "type": "text",
+            "instructions": "A good accounting firm with a quality reputation in the community makes a statement about the businesses focus on numbers, paying taxes and financial planning.  With your permission they might ask the accounting firm for their assessment of you and your business.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5da77fffcfc3e",
+            "label": "Law firm",
+            "name": "law_firm",
+            "type": "text",
+            "instructions": "A good experienced law firm working with companies like yours reassures them that your incorporation, employment, vendor and customer agreements are well done and protect the business from unnecessary lawsuits.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5df91844ca5d3",
+            "label": "Describe your cyber security plan.",
+            "name": "cyber_security",
+            "type": "text",
+            "instructions": "They want to make sure you aren’t easily hacked and your business is thrown into jeopardy, which could either hurt the business and\/or bankrupt the business depending the severity and that would effect the banks ability to be paid back.  Strong cyber security and planning will be reassuring to them.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_admin": 0,
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "loanapplication"
+            }
+        ],
+        [
+            {
+                "param": "af_form",
+                "operator": "==",
+                "value": "form_5d94d994d9e24"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1600961435
+}
