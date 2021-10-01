@@ -12,7 +12,7 @@ defined( 'ABSPATH' ) || exit;
 get_header();
 $container = get_theme_mod( 'understrap_container_type' );
 
-global $current_user; 
+global $current_user;
 // $user_id = $current_user->ID;
 // $application_id = $post->ID;
 
@@ -31,38 +31,38 @@ global $current_user;
 				<main class="site-main" id="main" role="main">
 
 					<?php //tml_2fa_add_to_wp_profile($current_user); ?>
-					
+
 					<?php //if ($access_type != false) : ?>
 						<?php while ( have_posts() ) : the_post(); ?>
 
 							<div class="display-fieldgroup my-4 pb-4">
 								<h1><?php the_title(); ?></h1>
 							</div>
-							
 
-							<?php  
+
+							<?php
 							if (af_has_submission()) { ?>
 								<div class="alert alert-success">Your profile has been saved!</div>
 							<?php }
 
 							if (in_array('funder', $current_user->roles) && get_field('partner_funder_status', "user_$current_user->ID") == 'approved') {
-								
+
 								$exclude_fields = fo_get_excluded_fields_by_page('partner-profile');
 								$args = array(
 									'exclude_fields' => $exclude_fields,
 									'user' => $current_user->ID,
 									'filter_mode' => true
-								);						
+								);
 								advanced_form('form_5ec6b9b74209e', $args);
 
 							} elseif (in_array('funder', $current_user->roles)) { // Funder
-								
+
 								$exclude_fields = fo_get_excluded_fields_by_page('funder-profile');
 								$args = array(
 									'exclude_fields' => $exclude_fields,
 									'user' => $current_user->ID,
 									'filter_mode' => true
-								);						
+								);
 								advanced_form('form_5ec6a55b507c4', $args);
 
 							} else {
@@ -72,7 +72,7 @@ global $current_user;
 									'exclude_fields' => $exclude_fields,
 									'user' => $current_user->ID,
 									'filter_mode' => true
-								);						
+								);
 								advanced_form('form_5ec957af1586f', $args);
 
 							}
